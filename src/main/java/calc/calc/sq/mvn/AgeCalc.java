@@ -1,7 +1,7 @@
 package calc.calc.sq.mvn;
 import java.time.LocalDate;
 import java.time.Period;
-import java.util.Arrays;
+
 import java.io.Externalizable;
 import java.io.IOException;
 import java.io.ObjectInput;
@@ -9,9 +9,9 @@ import java.io.ObjectOutput;
 import java.time.DateTimeException;
 
 public class AgeCalc implements Externalizable {
-	private String inputDate;
+	
 	public AgeCalc(String inputDate){
-		this.inputDate = inputDate;
+		
 	}
 	public static String calculateAge(String inputDate) throws Exception{
 		AgeCalc obj = new AgeCalc(inputDate);
