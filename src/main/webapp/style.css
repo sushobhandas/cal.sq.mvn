@@ -25,7 +25,7 @@ body, html {
 }
 
 .tablink:hover {
-    background-color: #777;
+    background-color: #778;
 }
 
 /* Style the tab content (and add height:100% for full page content) */
@@ -51,9 +51,9 @@ body, html {
 	background-color: #b0e0e6;
 	text-align: center;
 }
-#SimpleCalculator {background-color: blue;}
+#SimpleCalculator {background-color: black
 #AgeCalculator {background-color: blue;}
-#EMICalculator {background-color: orange;}
+#EMICalculator {background-color: red
 
 
 
